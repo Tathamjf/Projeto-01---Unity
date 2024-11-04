@@ -16,11 +16,30 @@ public class Geral : MonoBehaviour
 
     int variavelGlobal;
 
+    [SerializeField] int estadoVilao = 0;
+
     void Start()
     {
         //int varialvelLocal = 10;
         //print(varialvelLocal);
         //print(variavelGlobal);
+
+        // estado 1: Vilão ataca
+
+        //switch (estadoVilao) {
+        //    case 1:
+        //        print("Vilão atacando");
+        //        break;
+        //    case 2:
+        //        print("Vilão defende");
+        //        break;
+        //    case 3:
+        //        print("Vilão tomando dano");
+        //        break;
+        //    default:
+        //        print("Valor não identificado");
+        //        break;
+        //}
     }
 
 
