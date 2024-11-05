@@ -2706,8 +2706,10 @@ GameObject:
   - component: {fileID: 1966674458}
   - component: {fileID: 1966674457}
   - component: {fileID: 1966674456}
-  - component: {fileID: 1966674460}
   - component: {fileID: 1966674461}
+  - component: {fileID: 1966674460}
+  - component: {fileID: 1966674462}
+  - component: {fileID: 1966674463}
   m_Layer: 0
   m_Name: idle1
   m_TagString: Untagged
@@ -2855,13 +2857,41 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1966674455}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48bb724e6e5b94a4aa727be38a5ef702, type: 3}
+  m_Script: {fileID: 11500000, guid: be692a46dc7d9134387c65ba0c4834cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaPlayer: 10
+  personagem: 1
 --- !u!114 &1966674461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966674455}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be692a46dc7d9134387c65ba0c4834cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personagem: 0
+--- !u!114 &1966674462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966674455}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f74c949d449fc0c47b6a951c7be7ea87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  facesDado: 6
+  valorMin: 1
+  resultado: 0
+--- !u!114 &1966674463
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2870,11 +2900,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1966674455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5411a84ebf810945b24eca4cebbceb8, type: 3}
+  m_Script: {fileID: 11500000, guid: 730319f8e33e25744b0dc62c6def3f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaPlayer: 10
-  danoPlayer: 5
+  hora: 0
+  dias: 0
 --- !u!1 &2021328578
 GameObject:
   m_ObjectHideFlags: 0
