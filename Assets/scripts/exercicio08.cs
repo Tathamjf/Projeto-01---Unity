@@ -15,26 +15,34 @@ public class exercicio08 : MonoBehaviour
 
     [SerializeField] int hora = 0;
     [SerializeField] int dias = 0;
+    [SerializeField] float segundos = 0;
     
     void Start()
     {
-        if (hora == 24)
-        {
-            dias++;
-        }
+       
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        if (hora == 0)
+
+        segundos += Time.deltaTime;
+
+        if (segundos >= 10)
         {
             hora++;
+            segundos = 0;
+
+            if (hora == 24)
+            {
+                dias++;
+                hora = 0;
+                print(dias);
+            }
+
         }
-
-        
-
 
     }
 }
