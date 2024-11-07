@@ -22,7 +22,7 @@ public class exercicio07 : MonoBehaviour
         print(resultado);
 
 
-
+             
     }
 
     // Update is called once per frame
