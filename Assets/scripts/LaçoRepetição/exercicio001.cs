@@ -1,9 +1,8 @@
 using UnityEngine;
 
-public class exercicio01 : MonoBehaviour
+public class exercicio001 : MonoBehaviour
 {
-    //1. (Contagem regressiva de tempo) Crie uma contagem
-    //regressiva de 5 a 1 e exiba "Início da partida!" ao final.
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         for (int i = 5; i >= 0; i--)
@@ -12,6 +11,7 @@ public class exercicio01 : MonoBehaviour
 
         }
         print("Início da Partida");
+
 
     }
 
