@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using static Unity.Burst.Intrinsics.X86;
 
-public class Exercício07 : MonoBehaviour
+public class Exercício007 : MonoBehaviour
 {
     //7. (Maior número em uma lista) Dada uma lista de números,
     //encontre o maior valor.
