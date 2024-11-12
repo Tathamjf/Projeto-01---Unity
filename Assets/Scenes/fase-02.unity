@@ -353,7 +353,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 920c5c914a75f904e91186675eb8b950, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -480,6 +480,15 @@ GameObject:
   - component: {fileID: 282630772}
   - component: {fileID: 282630771}
   - component: {fileID: 282630770}
+  - component: {fileID: 282630773}
+  - component: {fileID: 282630774}
+  - component: {fileID: 282630775}
+  - component: {fileID: 282630776}
+  - component: {fileID: 282630777}
+  - component: {fileID: 282630779}
+  - component: {fileID: 282630778}
+  - component: {fileID: 282630780}
+  - component: {fileID: 282630781}
   m_Layer: 0
   m_Name: char_blue_0
   m_TagString: Untagged
@@ -564,7 +573,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282630766}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 147bab23d7ecce3459c1bcb25deeb770, type: 3}
   m_Name: 
@@ -632,6 +641,125 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &282630773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282630766}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e99eacbf27df3074286569ef9575199a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &282630774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282630766}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71d757cd7e7f874c8351e2552170781, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moedas: 0
+--- !u!114 &282630775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282630766}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f8380d646838b409f1c6b5f6427e9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  combos: 0
+--- !u!114 &282630776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282630766}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8747109c0d5961040943015b690a99eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dificuldade: 0
+--- !u!114 &282630777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282630766}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b141e130d8364d41a704f8c4b858fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fizz: 0
+  buzz: 0
+  fizz_buzz: 0
+--- !u!114 &282630778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282630766}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79451d55aa2569042b24bb81ef848542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &282630779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282630766}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1e9cdce2d96b9642b1ff41ca4b74283, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &282630780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282630766}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7529cfd99e522a14f9eeeb3ee8ede7f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palavra: chocolate
+  consoante: 0
+--- !u!114 &282630781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282630766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c1c17012a9b2e4d8e7a332a0e3a792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diaRecebido: 19
+  mesRecebido: 5
+  anoRecebido: 2007
 --- !u!1 &320680321
 GameObject:
   m_ObjectHideFlags: 0
